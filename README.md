@@ -1,27 +1,32 @@
-# Playwright Automation Framework
+# Playwright Automation Framework (TypeScript)
 
-This project demonstrates end-to-end UI automation using Playwright with TypeScript.
+This repository demonstrates a scalable, production-style UI automation framework using Playwright with TypeScript, following best practices like Page Object Model and CI/CD integration.
 
-## Tech Stack
+## 🚀 Tech Stack
 - Playwright
 - TypeScript
+- Node.js
 - Page Object Model (POM)
 
-## Features
-- End-to-end UI testing
-- Reusable Page Object Model structure
-- Cross-browser support
-- CI/CD ready
+## 📂 Framework Structure
+- tests/ → Test specs
+- pages/ → Page Object classes
+- config → Playwright configuration
+- CI/CD → GitHub Actions pipeline
 
-## Sample Test
-- Login functionality validation
+## ✅ Features
+- End-to-end UI automation
+- Reusable Page Object Model
+- Cross-browser execution
+- Headless execution support
+- Screenshot & video capture on failure
+- HTML reporting
+- CI/CD integration ready
 
-## How to Run
-1. Install dependencies:
-   npm install
+## 🔄 CI/CD Integration
+Integrated with GitHub Actions for automated test execution on every push.
 
-2. Run tests:
-   npx playwright test
-
-## Author
-Naga Keerthi
+## ▶️ How to Run
+```bash
+npm install
+npx playwright test
