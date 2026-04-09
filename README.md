@@ -27,6 +27,18 @@ This repository demonstrates a scalable, production-style UI automation framewor
 Integrated with GitHub Actions for automated test execution on every push.
 
 ## ▶️ How to Run
+
 ```bash
 npm install
 npx playwright test
+```
+
+## 📊 Reporting
+
+```bash
+npx playwright show-report
+```
+
+## 👤 Author
+Naga Keerthi
+
